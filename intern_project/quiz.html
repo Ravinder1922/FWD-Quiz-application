@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Play</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <img src="logo4.png" alt="logo" >
+      <div>
+        <h1>Quiz Time!</h1>
+        <p class="subtitle">Think fast, answer right, beat the clock.</p>
+      </div>
+
+      <div class="homelink">
+        <a href="index.html" class="btn-home"><i class="fas fa-home"></i>
+          Home</a>
+      </div>
+    </div>
+
+
+  </header>
+  <main>
+    <div id="quiz-container" class="quiz-card-2">
+      <h1 id="quiz-subject-title"></h1>
+     
+
+      <div id="section-nav"></div>
+
+      <div class="quiz-header">
+        <div class="question-info">
+          <span id="progress"></span>
+          <div id="timer-container">
+            <div id="timer-bar"></div>
+          </div>
+        </div>
+        <div class="progress-container">
+          <div id="progress-bar"></div>
+        </div>
+        <h2 id="question"></h2>
+      </div>
+
+      <ul id="options" class="options-list"></ul>
+      <div id="feedback" class="feedback"> </div>
+      <p id="explanation" class="explanation"></p>
+
+      <div class="quiz-buttons">
+        <button id="next-btn" class="next-btn">Next Question</button>
+        <button id="next-section-btn" class="next-btn">Next Section</button>
+
+      </div>
+    </div>
+  </main>
+   <footer>
+    <div class="footer-content">
+      <p>Knowledge Quest © 2025 | All Rights Reserved</p>
+     
+      <p class="footer-motto">“Keep learning, keep growing!”</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
