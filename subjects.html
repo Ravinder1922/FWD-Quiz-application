@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Choose Subject</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="header-content" >
+      <img src="logo2.png" alt="logo" style="width: 9%;">
+      <div>
+        <h1>Choose What to Learn</h1>
+        <p>"Start where curiosity leads"</p>
+      </div>
+      <div class="homelink">
+        <a href="index.html" class="btn-home"><i class="fas fa-home"></i>
+          Home</a>
+      </div>
+     
+    </div>
+
+
+  </header>
+
+  <main>
+    <div id="subject-selection" class="subject-container">
+
+      <div class="subject-grid">
+        <div class="subject-card" onclick="selectSubject('general')">
+          <i class="fas fa-globe"></i>
+          <h3>General Knowledge</h3>
+        </div>
+        <div class="subject-card" onclick="selectSubject('math')">
+          <i class="fas fa-square-root-alt"></i>
+          <h3>Mathematics</h3>
+        </div>
+        <div class="subject-card" onclick="selectSubject('science')">
+          <i class="fas fa-flask"></i>
+          <h3>Science</h3>
+        </div>
+        <div class="subject-card" onclick="selectSubject('computerScience')">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Computer Science</h3>
+        </div>
+        <div class="subject-card" onclick="selectSubject('Logic')">
+          <i class="fas fa-puzzle-piece"></i>
+          <h3>Logic & Puzzles</h3>
+        </div>
+        <div class="subject-card" onclick="selectSubject('Health')">
+          <i class="fas fa-dumbbell"></i>
+          <h3>Health & Fitness</h3>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>Knowledge Quest © 2025 | All Rights Reserved</p>
+      
+      <p class="footer-motto">“Keep learning, keep growing!”</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
